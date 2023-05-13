@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{38C7A1B9-9F12-461D-8966-9672D381BE3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layers", "Layers", "{1D71E3BD-DD36-4125-B491-D859061F2ACC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{E871726E-2629-46F4-AD75-2A0DB80C9F65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHB.TsetmcReader.WinApp", "Src\Presentation\MSHB.TsetmcReader.WinApp\MSHB.TsetmcReader.WinApp.csproj", "{0F0B9AA8-8E58-49A8-87C5-00400A4053F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHB.TsetmcReader.Service", "Src\Layers\MSHB.TsetmcReader.Service\MSHB.TsetmcReader.Service.csproj", "{91FA7A06-2683-4E7B-8295-11114A6048F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHB.TsetmcReader.DTO", "Src\Layers\MSHB.TsetmcReader.DTO\MSHB.TsetmcReader.DTO.csproj", "{2E600B1E-5510-4AA6-AECC-E545EAE52A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHB.TsetmcReader.DataLayer", "Src\Layers\MSHB.TsetmcReader.DataLayer\MSHB.TsetmcReader.DataLayer.csproj", "{1C0253C6-E019-486F-A22A-E358C168AC3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F0B9AA8-8E58-49A8-87C5-00400A4053F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0B9AA8-8E58-49A8-87C5-00400A4053F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0B9AA8-8E58-49A8-87C5-00400A4053F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0B9AA8-8E58-49A8-87C5-00400A4053F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91FA7A06-2683-4E7B-8295-11114A6048F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91FA7A06-2683-4E7B-8295-11114A6048F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91FA7A06-2683-4E7B-8295-11114A6048F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91FA7A06-2683-4E7B-8295-11114A6048F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E600B1E-5510-4AA6-AECC-E545EAE52A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E600B1E-5510-4AA6-AECC-E545EAE52A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E600B1E-5510-4AA6-AECC-E545EAE52A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E600B1E-5510-4AA6-AECC-E545EAE52A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C0253C6-E019-486F-A22A-E358C168AC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0253C6-E019-486F-A22A-E358C168AC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0253C6-E019-486F-A22A-E358C168AC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0253C6-E019-486F-A22A-E358C168AC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D71E3BD-DD36-4125-B491-D859061F2ACC} = {38C7A1B9-9F12-461D-8966-9672D381BE3B}
+		{E871726E-2629-46F4-AD75-2A0DB80C9F65} = {38C7A1B9-9F12-461D-8966-9672D381BE3B}
+		{0F0B9AA8-8E58-49A8-87C5-00400A4053F0} = {E871726E-2629-46F4-AD75-2A0DB80C9F65}
+		{91FA7A06-2683-4E7B-8295-11114A6048F1} = {1D71E3BD-DD36-4125-B491-D859061F2ACC}
+		{2E600B1E-5510-4AA6-AECC-E545EAE52A0D} = {1D71E3BD-DD36-4125-B491-D859061F2ACC}
+		{1C0253C6-E019-486F-A22A-E358C168AC3C} = {1D71E3BD-DD36-4125-B491-D859061F2ACC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F925CED9-E5F2-4EC3-9CED-480F74559010}
+	EndGlobalSection
+EndGlobal
